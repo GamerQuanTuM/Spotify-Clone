@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         "spotify-green": "#1DB954",
         "spotify-white": "#FFFFFF",
-        "spotify-black-base":"#121212",
+        "spotify-black-base": "#121212",
         "spotify-black-primary": "#191414",
         "spotify-black-secondary": "#171818",
         "spotify-light-black": "#282828",
@@ -18,5 +18,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("prettier-plugin-tailwindcss")],
+  plugins: [require("@tailwindcss/line-clamp")],
 };
